@@ -1,0 +1,11 @@
+h1{
+    color:red;
+}
+p{color:green;}
+#chosen{font-weight: bold;}
+.em{font-style: italic;}
+article > p{color: blue;}
+article +p{color: red;}
+p::first-letter{font-weight: bold;}
+p::before{content: "{}";color: grey;}
+p:hover{font-weight: bold;}
